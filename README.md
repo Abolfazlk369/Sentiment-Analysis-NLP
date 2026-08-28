@@ -29,10 +29,18 @@ This project utilizes Fine-Tuning techniques on the pre-trained **ParsBERT** mod
 کتابخانه‌های مورد نیاز را می‌توانید با دستور زیر نصب کنید:
 
 pip install -r requirements.txt
+
+---
+
 🚀 نحوه اجرا (How to Run)
 کافیست فایل اصلی پروژه را اجرا کنید:
 
 python main.py
+
+
+
+---
+
 🏗 معماری مدل (Model Architecture)
 Input Text ➡️ ParsBERT Tokenizer ➡️ ParsBERT Transformer Encoder ➡️ Dropout (0.3) ➡️ Dense Linear Layer (2 classes) ➡️ Softmax / Prediction
 📝 لایسنس (License)
