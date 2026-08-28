@@ -42,6 +42,14 @@ python main.py
 ---
 
 🏗 معماری مدل (Model Architecture)
+
+
 Input Text ➡️ ParsBERT Tokenizer ➡️ ParsBERT Transformer Encoder ➡️ Dropout (0.3) ➡️ Dense Linear Layer (2 classes) ➡️ Softmax / Prediction
+
+
+---
+
 📝 لایسنس (License)
+
+
 این پروژه تحت لایسنس MIT منتشر شده است. استفاده و تغییر در کد آزاد است.
